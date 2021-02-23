@@ -116,4 +116,4 @@ if trial==0:
     else:
         print(name,"You Must Improve Your Gameplay,Need For Practice")       
     print("Number Is :",x,"\n=======================================================")
-                
+input("Hit Enter To Exit")                
