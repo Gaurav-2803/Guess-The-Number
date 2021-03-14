@@ -62,7 +62,7 @@ while trial>0:
         print("==============================================\n  Sry For That, But You Just Exit The Game\n==============================================")
         sys.exit(0)
 
-    elif a.isalpha()==True:
+    elif a.isalpha()==True or (a.isalnum()==True and a.isnumeric()==False):
         color_red()                           #Red_Color_Fn_Call
         print("===============================================================\nVariable Type Error : Invalid Input : Only Numeric Types Of Value Accepted Between 1 to 3\nChances Reamining :",trial)
         input("Hit Enter To Continue!!!")
@@ -74,19 +74,19 @@ while trial>0:
         print("===============================================================")
     elif int(a)==x: 
         if trial==1:
-            print("==============================================\n\t",name,"It Is Time Consuming But Nice One\n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"It Is Time Consuming But Nice One\n\t\t||You Won||\n==============================================")
         elif trial==2:            
-            print("==============================================\n\t",name,"Thats A Good One\n\t||You Won||\n==============================================")
+            print("==============================================\n",name,"Thats A Good One\n\t||You Won||\n==============================================")
         elif trial==3:            
-            print("==============================================\n\t",name,"You're Nothing But A Perfect Guesser\n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"You're Nothing But A Perfect Guesser\n\t\t||You Won||\n==============================================")
         elif trial==4:
-            print("==============================================\n\t",name,"You're A Perfect Player\n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"You're A Perfect Player\n\t\t||You Won||\n==============================================")
         elif trial==5:
-            print("==============================================\n\t",name,"Excellent Guessing Skills \n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"Excellent Guessing Skills \n\t\t||You Won||\n==============================================")
         elif trial==6:
-            print("==============================================\n\t",name,"Your Guessing Is Awesome\n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"Your Guessing Is Awesome\n\t\t||You Won||\n==============================================")
         elif trial==7:
-            print("==============================================\n\t",name,"You're Guessing Expert\n\t\t||You Won||\n==============================================")
+            print("==============================================\n",name,"You're Guessing Expert\n\t\t||You Won||\n==============================================")
         elif trial==8:
             print("======================================================\n",name,"Its Nothing But a Extraorinary 'LUCK'; HA HA!\n\t\t  ||You Won||\n======================================================")
         break
